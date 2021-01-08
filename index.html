@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pace builders</title>
+    <link rel="shortcut icon" type="imgage/png" href="Assets/favIcon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" async></script>
+</head>
+
+<body>
+
+    <div class="phone-container">
+        <p>Contact us:</p>
+        <a href="tel:(510) 252-5002">
+            <p>(510) 252-5002</p>
+        </a>
+
+    </div>
+    <header>
+        <div class="background-Image">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="Assets/backgroundImgL.png" />
+                <img src="Assets/backgroundImage.png" alt="" />
+            </picture>
+        </div>
+        <div class="header-container">
+            <h1>Pace Builders</h1>
+            <div class="logo-container">
+                <img src="Assets/logoImage.png" alt="" />
+                <div class="estimate-container">
+                    <p>Get your</p>
+                    <button> <a
+                            href="mailto:website@luiedesign.com?subject=Remodeling Services&body=Hello, Miles I have a question about">FREE</a>
+                    </button>
+                    <p>estimte.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="services-container" id="allServices">
+                <h2>Living Spaces</h2>
+                <p>We design and install interior and exterior living spaces.Remodeling your home can be a complicated
+                    task to take on. However, we are here to help no matter how big or small your home project is. Our
+                    focus is proving a living environment you will enjoy.</p>
+                <div class="serviceOptions-container">
+
+
+                    <h2>Interior Remodeling Services</h2>
+                    <ul class="interExterior-container">
+                        <li>
+                            <img src=" Assets/interiorImg1.png" alt="">
+                            <h3 onclick=" kitchenServices()">Kitchen</h3>
+
+                        </li>
+                        <li>
+                            <img src="Assets/interiorImg2.png" alt="">
+                            <h3 onclick="bathroomServices()">Bathroom</h3>
+                        </li>
+                        <li>
+                            <img src="Assets/interiorImg3.png" alt="">
+                            <h3 onclick=" fireplaceServices()">Fireplace</h3>
+
+                        </li>
+                        <li>
+                            <img src="Assets/interiorImg4.png" alt="">
+                            <h3 onclick=" flooringServices()">Flooring</h3>
+
+                        </li>
+
+                    </ul>
+
+                    <h2>Exterior Remodeling Services</h2>
+
+                    <ul class="interExterior-container">
+
+                        <li>
+                            <img src="Assets/exteriorImg1.png" alt="">
+                            <h3 onclick=" paintingServices()">Painting and Staining</h3>
+
+                        </li>
+                        <li>
+                            <img src="Assets/exteriorImg2.png" alt="">
+
+                            <h3 onclick=" doorsWindowsServices()">Doors and Windows</h3>
+
+                        </li>
+                        <li>
+                            <img src="Assets/exteriorImg3.png" alt="">
+                            <h3 onclick=" roomAdditionServices()">Room Addition</h3>
+
+                        </li>
+                        <li>
+                            <img src="Assets/exteriorImg4.png" alt="">
+
+                            <h3 onclick=" outdoorSpaceServices()">Outdoor Space</h3>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </section>
+        <section>
+
+            <div class="serviceList-container" id="listOfAllServices">
+                <ul>
+                    <li id="kitchenItem">
+                        <h4 onclick="hideKitchen()"> &#60 Kitchen Remodeling</h4>
+                        <img src="Assets/Gallery/galleryImg1.png" alt="">
+                        <div class="info-container">
+                            <h5>Services</h5>
+                            <p>Pace Builders, Inc. is here to take your remodeling or new construction project, from
+                                just a vision into reality. While we work closely with the architect and designers,
+                                however as the client, you, can take on the designer/ project manager role, especially
+                                if you have a complete vision for the project. We understand the construction project is
+                                your vision and our goal it to help you to create what you desire. Pace Builders strives
+                                to provide every client with exceptional work, as well as create the space that you had
+                                dreamed of.</p>
+                            <h5>Process</h5>
+                            <p>Pace Builders believes in helping clients through the intimidating process of designing,
+                                permitting, zoning, and budgeting the construction project is a priority. We strive to
+                                create cost transparency though out the project. The invoice provided for each project
+                                includes information about the numbers of employees on the job, their work logs, and a
+                                clear copy of all materials used on the project. This insure the client has the complete
+                                breakdown of the project’s cost.</p>
+                            <h5>Time and Materials VS Fixed Cost</h5>
+
+                            <p>Contractors often give quotes for their services based on a fixed-cost basis. For a
+                                contractor, this means the client carries all risk. If a contractor underestimates
+                                the quote, there are ways to cut materials and/or labor costs that would be
+                                invisible to the client. If a contractor overestimates they have no obligation to
+                                any pass savings on to you. No one wants a contractor to pocket a bonus at your
+                                expense..</p>
+                        </div>
+
+                        <div class="contactUs-container">
+                            <p>Have any questiong? We are here to help.</p>
+                            <div class="pointOfContact-container">
+                                <img src="Assets/milesImg.png" alt="">
+                                <div>
+                                    <p>General Manager</p>
+                                    <p>Miles Williams</p>
+                                    <p>Age: 27</p>
+                                </div>
+                            </div>
+
+                            <div class="emailCall-container">
+                                <a href="mailto:miles@pacebuilders.net?subject=Kitchen Services&body=Hello, Miles">
+                                    <button>Email</button>
+                                </a>
+                                <a href="tel:(510) 252-5002">
+                                    <button>Call: (510) 252-5002</button>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="bathroom">
+                        <h4 onclick="hideBathroom()"> &#60 Bathroom Remodeling</h4>
+                        <img src="Assets/Gallery/galleryImg3.png" alt="">
+                        <div class="info-container">
+                            <h5>Services</h5>
+                            <p>Pace Builders, Inc. is here to take your remodeling or new construction project, from
+                                just a vision into reality. While we work closely with the architect and designers,
+                                however as the client, you, can take on the designer/ project manager role, especially
+                                if you have a complete vision for the project. We understand the construction project is
+                                your vision and our goal it to help you to create what you desire. Pace Builders strives
+                                to provide every client with exceptional work, as well as create the space that you had
+                                dreamed of.</p>
+                            <h5>Process</h5>
+                            <p>Pace Builders believes in helping clients through the intimidating process of designing,
+                                permitting, zoning, and budgeting the construction project is a priority. We strive to
+                                create cost transparency though out the project. The invoice provided for each project
+                                includes information about the numbers of employees on the job, their work logs, and a
+                                clear copy of all materials used on the project. This insure the client has the complete
+                                breakdown of the project’s cost.</p>
+                            <h5>Time and Materials VS Fixed Cost</h5>
+
+                            <p>Contractors often give quotes for their services based on a fixed-cost basis. For a
+                                contractor, this means the client carries all risk. If a contractor underestimates
+                                the quote, there are ways to cut materials and/or labor costs that would be
+                                invisible to the client. If a contractor overestimates they have no obligation to
+                                any pass savings on to you. No one wants a contractor to pocket a bonus at your
+                                expense..</p>
+                        </div>
+
+                        <div class="contactUs-container">
+                            <p>Have any questiong? We are here to help.</p>
+                            <div class="pointOfContact-container">
+                                <img src="Assets/milesImg.png" alt="">
+                                <div>
+                                    <p>General Manager</p>
+                                    <p>Miles Williams</p>
+                                    <p>Age: 27</p>
+                                </div>
+                            </div>
+
+                            <div class="emailCall-container">
+                                <a href="mailto:miles@pacebuilders.net?subject=Bathroom Services&body=Hello, Miles">
+                                    <button>Email</button>
+                                </a>
+                                <a href="tel:(510) 252-5002">
+                                    <button>Call: (510) 252-5002</button>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="fireplace">
+                        <h4 onclick="hidefireplace()"> &#60 Fireplace Remodeling</h4>
+                        <img src="Assets/Gallery/galleryImg10.png" alt="">
+                        <div class="info-container">
+                            <h5>Services</h5>
+                            <p>Pace Builders, Inc. is here to take your remodeling or new construction project, from
+                                just a vision into reality. While we work closely with the architect and designers,
+                                however as the client, you, can take on the designer/ project manager role, especially
+                                if you have a complete vision for the project. We understand the construction project is
+                                your vision and our goal it to help you to create what you desire. Pace Builders strives
+                                to provide every client with exceptional work, as well as create the space that you had
+                                dreamed of.</p>
+                            <h5>Process</h5>
+                            <p>Pace Builders believes in helping clients through the intimidating process of designing,
+                                permitting, zoning, and budgeting the construction project is a priority. We strive to
+                                create cost transparency though out the project. The invoice provided for each project
+                                includes information about the numbers of employees on the job, their work logs, and a
+                                clear copy of all materials used on the project. This insure the client has the complete
+                                breakdown of the project’s cost.</p>
+                            <h5>Time and Materials VS Fixed Cost</h5>
+
+                            <p>Contractors often give quotes for their services based on a fixed-cost basis. For a
+                                contractor, this means the client carries all risk. If a contractor underestimates
+                                the quote, there are ways to cut materials and/or labor costs that would be
+                                invisible to the client. If a contractor overestimates they have no obligation to
+                                any pass savings on to you. No one wants a contractor to pocket a bonus at your
+                                expense..</p>
+                        </div>
+
+                        <div class="contactUs-container">
+                            <p>Have any questiong? We are here to help.</p>
+                            <div class="pointOfContact-container">
+                                <img src="Assets/milesImg.png" alt="">
+                                <div>
+                                    <p>General Manager</p>
+                                    <p>Miles Williams</p>
+                                    <p>Age: 27</p>
+                                </div>
+                            </div>
+
+                            <div class="emailCall-container">
+                                <a href="mailto:miles@pacebuilders.net?subject=Fireplace Services&body=Hello, Miles">
+                                    <button>Email</button>
+                                </a>
+                                <a href="tel:(510) 252-5002">
+                                    <button>Call: (510) 252-5002</button>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="flooring">
+                        <h4 onclick="hideflooring()"> &#60 Flooring Remodeling</h4>
+                        <img src="Assets/Gallery/galleryImg8.png" alt="">
+                        <div class="info-container">
+                            <h5>Services</h5>
+                            <p>Pace Builders, Inc. is here to take your remodeling or new construction project, from
+                                just a vision into reality. While we work closely with the architect and designers,
+                                however as the client, you, can take on the designer/ project manager role, especially
+                                if you have a complete vision for the project. We understand the construction project is
+                                your vision and our goal it to help you to create what you desire. Pace Builders strives
+                                to provide every client with exceptional work, as well as create the space that you had
+                                dreamed of.</p>
+                            <h5>Process</h5>
+                            <p>Pace Builders believes in helping clients through the intimidating process of designing,
+                                permitting, zoning, and budgeting the construction project is a priority. We strive to
+                                create cost transparency though out the project. The invoice provided for each project
+                                includes information about the numbers of employees on the job, their work logs, and a
+                                clear copy of all materials used on the project. This insure the client has the complete
+                                breakdown of the project’s cost.</p>
+                            <h5>Time and Materials VS Fixed Cost</h5>
+
+                            <p>Contractors often give quotes for their services based on a fixed-cost basis. For a
+                                contractor, this means the client carries all risk. If a contractor underestimates
+                                the quote, there are ways to cut materials and/or labor costs that would be
+                                invisible to the client. If a contractor overestimates they have no obligation to
+                                any pass savings on to you. No one wants a contractor to pocket a bonus at your
+                                expense..</p>
+                        </div>
+
+                        <div class="contactUs-container">
+                            <p>Have any questiong? We are here to help.</p>
+                            <div class="pointOfContact-container">
+                                <img src="Assets/milesImg.png" alt="">
+                                <div>
+                                    <p>General Manager</p>
+                                    <p>Miles Williams</p>
+                                    <p>Age: 27</p>
+                                </div>
+                            </div>
+
+                            <div class="emailCall-container">
+                                <a href="mailto:miles@pacebuilders.net?subject=Flooring Services&body=Hello, Miles">
+                                    <button>Email</button>
+                                </a>
+                                <a href="tel:(510) 252-5002">
+                                    <button>Call: (510) 252-5002</button>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="painting">
+                        <h4 onclick="hidePainting()"> &#60 Painting and Stainning</h4>
+                        <img src="Assets/Gallery/galleryImg15.png" alt="">
+                        <div class="info-container">
+                            <h5>Services</h5>
+                            <p>Pace Builders, Inc. is here to take your remodeling or new construction project, from
+                                just a vision into reality. While we work closely with the architect and designers,
+                                however as the client, you, can take on the designer/ project manager role, especially
+                                if you have a complete vision for the project. We understand the construction project is
+                                your vision and our goal it to help you to create what you desire. Pace Builders strives
+                                to provide every client with exceptional work, as well as create the space that you had
+                                dreamed of.</p>
+                            <h5>Process</h5>
+                            <p>Pace Builders believes in helping clients through the intimidating process of designing,
+                                permitting, zoning, and budgeting the construction project is a priority. We strive to
+                                create cost transparency though out the project. The invoice provided for each project
+                                includes information about the numbers of employees on the job, their work logs, and a
+                                clear copy of all materials used on the project. This insure the client has the complete
+                                breakdown of the project’s cost.</p>
+                            <h5>Time and Materials VS Fixed Cost</h5>
+
+                            <p>Contractors often give quotes for their services based on a fixed-cost basis. For a
+                                contractor, this means the client carries all risk. If a contractor underestimates
+                                the quote, there are ways to cut materials and/or labor costs that would be
+                                invisible to the client. If a contractor overestimates they have no obligation to
+                                any pass savings on to you. No one wants a contractor to pocket a bonus at your
+                                expense..</p>
+                        </div>
+
+                        <div class="contactUs-container">
+                            <p>Have any questiong? We are here to help.</p>
+                            <div class="pointOfContact-container">
+                                <img src="Assets/milesImg.png" alt="">
+                                <div>
+                                    <p>General Manager</p>
+                                    <p>Miles Williams</p>
+                                    <p>Age: 27</p>
+                                </div>
+                            </div>
+
+                            <div class="emailCall-container">
+                                <a
+                                    href="mailto:miles@pacebuilders.net?subject=Painting and Stainning Services&body=Hello, Miles">
+                                    <button>Email</button>
+                                </a>
+                                <a href="tel:(510) 252-5002">
+                                    <button>Call: (510) 252-5002</button>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="doorsWindows">
+                        <h4 onclick="hideDoorsWindows()"> &#60 Doors and Windows</h4>
+                        <img src="Assets/Gallery/galleryImg9.png" alt="">
+                        <div class="info-container">
+                            <h5>Services</h5>
+                            <p>Pace Builders, Inc. is here to take your remodeling or new construction project, from
+                                just a vision into reality. While we work closely with the architect and designers,
+                                however as the client, you, can take on the designer/ project manager role, especially
+                                if you have a complete vision for the project. We understand the construction project is
+                                your vision and our goal it to help you to create what you desire. Pace Builders strives
+                                to provide every client with exceptional work, as well as create the space that you had
+                                dreamed of.</p>
+                            <h5>Process</h5>
+                            <p>Pace Builders believes in helping clients through the intimidating process of designing,
+                                permitting, zoning, and budgeting the construction project is a priority. We strive to
+                                create cost transparency though out the project. The invoice provided for each project
+                                includes information about the numbers of employees on the job, their work logs, and a
+                                clear copy of all materials used on the project. This insure the client has the complete
+                                breakdown of the project’s cost.</p>
+                            <h5>Time and Materials VS Fixed Cost</h5>
+
+                            <p>Contractors often give quotes for their services based on a fixed-cost basis. For a
+                                contractor, this means the client carries all risk. If a contractor underestimates
+                                the quote, there are ways to cut materials and/or labor costs that would be
+                                invisible to the client. If a contractor overestimates they have no obligation to
+                                any pass savings on to you. No one wants a contractor to pocket a bonus at your
+                                expense..</p>
+                        </div>
+
+                        <div class="contactUs-container">
+                            <p>Have any questiong? We are here to help.</p>
+                            <div class="pointOfContact-container">
+                                <img src="Assets/milesImg.png" alt="">
+                                <div>
+                                    <p>Title: Contractor</p>
+                                    <p>Name: Miles</p>
+                                    <p>Age: 27</p>
+                                </div>
+                            </div>
+
+                            <div class="emailCall-container">
+                                <a
+                                    href="mailto:miles@pacebuilders.net?subject=Doors and Windows Services&body=Hello, Miles">
+                                    <button>Email</button>
+                                </a>
+                                <a href="tel:(510) 252-5002">
+                                    <button>Call: (510) 252-5002</button>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="roomAddition">
+                        <h4 onclick="hideRoomAddition()"> &#60 Room Addition</h4>
+                        <img src="Assets/Gallery/galleryImg12.png" alt="">
+                        <div class="info-container">
+                            <h5>Services</h5>
+                            <p>Pace Builders, Inc. is here to take your remodeling or new construction project, from
+                                just a vision into reality. While we work closely with the architect and designers,
+                                however as the client, you, can take on the designer/ project manager role, especially
+                                if you have a complete vision for the project. We understand the construction project is
+                                your vision and our goal it to help you to create what you desire. Pace Builders strives
+                                to provide every client with exceptional work, as well as create the space that you had
+                                dreamed of.</p>
+                            <h5>Process</h5>
+                            <p>Pace Builders believes in helping clients through the intimidating process of designing,
+                                permitting, zoning, and budgeting the construction project is a priority. We strive to
+                                create cost transparency though out the project. The invoice provided for each project
+                                includes information about the numbers of employees on the job, their work logs, and a
+                                clear copy of all materials used on the project. This insure the client has the complete
+                                breakdown of the project’s cost.</p>
+                            <h5>Time and Materials VS Fixed Cost</h5>
+
+                            <p>Contractors often give quotes for their services based on a fixed-cost basis. For a
+                                contractor, this means the client carries all risk. If a contractor underestimates
+                                the quote, there are ways to cut materials and/or labor costs that would be
+                                invisible to the client. If a contractor overestimates they have no obligation to
+                                any pass savings on to you. No one wants a contractor to pocket a bonus at your
+                                expense..</p>
+                        </div>
+
+                        <div class="contactUs-container">
+                            <p>Have any questiong? We are here to help.</p>
+                            <div class="pointOfContact-container">
+                                <img src="Assets/milesImg.png" alt="">
+                                <div>
+                                    <p>Title: Contractor</p>
+                                    <p>Name: Miles</p>
+                                    <p>Age: 27</p>
+                                </div>
+                            </div>
+
+                            <div class="emailCall-container">
+                                <a
+                                    href="mailto:miles@pacebuilders.net?subject=Room Addition Services&body=Hello, Miles">
+                                    <button>Email</button>
+                                </a>
+                                <a href="tel:(510) 252-5002">
+                                    <button>Call: (510) 252-5002</button>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="outdoorSpace">
+                        <h4 onclick="hideOutdoorSpace()"> &#60 Outdoor Space</h4>
+                        <img src="Assets/Gallery/galleryImg7.png" alt="">
+                        <div class="info-container">
+                            <h5>Services</h5>
+                            <p>Pace Builders, Inc. is here to take your remodeling or new construction project, from
+                                just a vision into reality. While we work closely with the architect and designers,
+                                however as the client, you, can take on the designer/ project manager role, especially
+                                if you have a complete vision for the project. We understand the construction project is
+                                your vision and our goal it to help you to create what you desire. Pace Builders strives
+                                to provide every client with exceptional work, as well as create the space that you had
+                                dreamed of.</p>
+                            <h5>Process</h5>
+                            <p>Pace Builders believes in helping clients through the intimidating process of designing,
+                                permitting, zoning, and budgeting the construction project is a priority. We strive to
+                                create cost transparency though out the project. The invoice provided for each project
+                                includes information about the numbers of employees on the job, their work logs, and a
+                                clear copy of all materials used on the project. This insure the client has the complete
+                                breakdown of the project’s cost.</p>
+                            <h5>Time and Materials VS Fixed Cost</h5>
+
+                            <p>Contractors often give quotes for their services based on a fixed-cost basis. For a
+                                contractor, this means the client carries all risk. If a contractor underestimates
+                                the quote, there are ways to cut materials and/or labor costs that would be
+                                invisible to the client. If a contractor overestimates they have no obligation to
+                                any pass savings on to you. No one wants a contractor to pocket a bonus at your
+                                expense..</p>
+                        </div>
+
+                        <div class="contactUs-container">
+                            <p>Have any questiong? We are here to help.</p>
+                            <div class="pointOfContact-container">
+                                <img src="Assets/milesImg.png" alt="">
+                                <div>
+                                    <p>Title: Contractor</p>
+                                    <p>Name: Miles</p>
+                                    <p>Age: 27</p>
+                                </div>
+                            </div>
+
+                            <div class="emailCall-container">
+                                <a
+                                    href="mailto:miles@pacebuilders.net?subject=Outdoor Space Services&body=Hello, Miles">
+                                    <button>Email</button>
+                                </a>
+                                <a href="tel:(510) 252-5002">
+                                    <button>Call: (510) 252-5002</button>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </section>
+
+        <aside>
+            <div class="marketing-container">
+                <div class="marketing-wrapper">
+                    <img src="Assets/logoImgS.png" alt="">
+                </div>
+
+                <div class="text-container">
+                    <p>WE ARE KNOW FOR</p>
+                    <p>OUR ATTENTION</p>
+                    <p>TO DETAIL.</p>
+                </div>
+            </div>
+        </aside>
+
+        <section>
+
+            <div class="gallery-container">
+                <ul>
+                    <li><img src="Assets/Gallery/galleryImg1.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg2.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg3.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg4.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg5.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg6.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg7.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg8.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg9.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg10.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg11.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg12.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg13.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg14.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg15.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg16.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg17.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg18.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg19.png" alt=""></li>
+                    <li><img src="Assets/Gallery/galleryImg20.png" alt=""></li>
+
+                </ul>
+
+            </div>
+
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
